@@ -1,0 +1,67 @@
+16:47:40 | INFO    | starting extraction: docs=31 raw=data\raw manifest=data\raw\corpus_manifest.json
+16:47:40 | DEBUG   | extracting doc_id=ai_act_2024_1689 file=ai_act_2024_1689.html ext=html bytes=1264455
+16:47:41 | INFO    | [ok] ai_act_2024_1689                         fmt=html  tokens=110774  chars=582489   pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:14']
+16:47:41 | DEBUG   | extracting doc_id=gdpr_2016_679 file=gdpr_2016_679.html ext=html bytes=809035
+16:47:41 | INFO    | [ok] gdpr_2016_679                            fmt=html  tokens=64389   chars=350673   pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:14']
+16:47:41 | DEBUG   | extracting doc_id=dsa_2022_2065 file=dsa_2022_2065.html ext=html bytes=840293
+16:47:42 | INFO    | [ok] dsa_2022_2065                            fmt=html  tokens=75397   chars=415115   pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:14']
+16:47:42 | DEBUG   | extracting doc_id=pld_2024_2853 file=pld_2024_2853.html ext=html bytes=225249
+16:47:42 | INFO    | [ok] pld_2024_2853                            fmt=html  tokens=17340   chars=87507    pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:14']
+16:47:42 | DEBUG   | extracting doc_id=edpb_opinion_28_2024 file=edpb_opinion_28_2024.pdf ext=pdf bytes=728647
+16:47:47 | INFO    | [ok] edpb_opinion_28_2024                     fmt=pdf   tokens=27328   chars=123624   pages=35   parser=pdfplumber
+16:47:47 | DEBUG   | extracting doc_id=commission_guidelines_prohibited_practices_2025 file=commission_guidelines_prohibited_practices_2025.pdf ext=pdf bytes=1204912
+16:48:08 | INFO    | [ok] commission_guidelines_prohibited_practices_2025 fmt=pdf   tokens=88276   chars=420670   pages=134  parser=pdfplumber
+16:48:08 | DEBUG   | extracting doc_id=commission_guidelines_ai_definition_2025 file=commission_guidelines_ai_definition_2025.pdf ext=pdf bytes=333765
+16:48:10 | INFO    | [ok] commission_guidelines_ai_definition_2025 fmt=pdf   tokens=7255    chars=36007    pages=13   parser=pdfplumber
+16:48:10 | DEBUG   | extracting doc_id=edpb_automated_decision_making_guidelines file=edpb_automated_decision_making_guidelines.pdf ext=pdf bytes=1066717
+16:48:15 | INFO    | [ok] edpb_automated_decision_making_guidelines fmt=pdf   tokens=21132   chars=104106   pages=37   parser=pdfplumber
+16:48:15 | DEBUG   | extracting doc_id=enisa_ai_cybersecurity_framework file=enisa_ai_cybersecurity_framework.pdf ext=pdf bytes=2701584
+16:48:25 | INFO    | [ok] enisa_ai_cybersecurity_framework         fmt=pdf   tokens=26604   chars=127188   pages=46   parser=pdfplumber warnings=['removed_repeated_header_footer_lines:81']
+16:48:25 | DEBUG   | extracting doc_id=enisa_securing_ml file=enisa_securing_ml.pdf ext=pdf bytes=2225507
+16:48:40 | INFO    | [ok] enisa_securing_ml                        fmt=pdf   tokens=43466   chars=159286   pages=70   parser=pdfplumber warnings=['removed_repeated_header_footer_lines:136']
+16:48:40 | DEBUG   | extracting doc_id=dlapiper_ai_act_overview file=dlapiper_ai_act_overview.html ext=html bytes=1159564
+16:48:40 | INFO    | [ok] dlapiper_ai_act_overview                 fmt=html  tokens=940     chars=4538     pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:116', 'removed_boilerplate_nodes:2']
+16:48:40 | DEBUG   | extracting doc_id=birdbird_ai_act_tracker file=birdbird_ai_act_tracker.html ext=html bytes=71045
+16:48:40 | INFO    | [ok] birdbird_ai_act_tracker                  fmt=html  tokens=643     chars=2922     pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:49', 'removed_boilerplate_nodes:7']
+16:48:40 | DEBUG   | extracting doc_id=hoganlovells_ai_act file=hoganlovells_ai_act.html ext=html bytes=327372
+16:48:40 | INFO    | [ok] hoganlovells_ai_act                      fmt=html  tokens=3398    chars=17266    pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:84', 'removed_boilerplate_nodes:4']
+16:48:40 | DEBUG   | extracting doc_id=cms_ai_act_guide file=cms_ai_act_guide.pdf ext=pdf bytes=600601
+16:48:57 | INFO    | [ok] cms_ai_act_guide                         fmt=pdf   tokens=35663   chars=184612   pages=55   parser=pdfplumber
+16:48:57 | DEBUG   | extracting doc_id=fpf_conformity_assessment_2025 file=fpf_conformity_assessment_2025.pdf ext=pdf bytes=4467007
+16:49:02 | INFO    | [ok] fpf_conformity_assessment_2025           fmt=pdf   tokens=22415   chars=104915   pages=41   parser=pdfplumber warnings=['removed_repeated_header_footer_lines:37']
+16:49:02 | DEBUG   | extracting doc_id=fpf_ai_act_primer file=fpf_ai_act_primer.pdf ext=pdf bytes=150971
+16:49:03 | INFO    | [ok] fpf_ai_act_primer                        fmt=pdf   tokens=1346    chars=6520     pages=4    parser=pdfplumber
+16:49:03 | DEBUG   | extracting doc_id=coe_ai_convention_2024 file=coe_ai_convention_2024.pdf ext=pdf bytes=362548
+16:49:04 | INFO    | [ok] coe_ai_convention_2024                   fmt=pdf   tokens=5923    chars=31704    pages=12   parser=pdfplumber warnings=['removed_repeated_header_footer_lines:22']
+16:49:04 | DEBUG   | extracting doc_id=us_eo_14110_biden file=us_eo_14110_biden.html ext=html bytes=254765
+16:49:04 | INFO    | [ok] us_eo_14110_biden                        fmt=html  tokens=25654   chars=137526   pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:111', 'removed_boilerplate_nodes:18']
+16:49:04 | DEBUG   | extracting doc_id=uk_ai_white_paper_2023 file=uk_ai_white_paper_2023.pdf ext=pdf bytes=1245266
+16:49:12 | INFO    | [ok] uk_ai_white_paper_2023                   fmt=pdf   tokens=41031   chars=208165   pages=93   parser=pdfplumber warnings=['removed_repeated_header_footer_lines:85']
+16:49:12 | DEBUG   | extracting doc_id=nist_ai_rmf file=nist_ai_rmf.pdf ext=pdf bytes=1946127
+16:49:16 | INFO    | [ok] nist_ai_rmf                              fmt=pdf   tokens=22311   chars=100377   pages=48   parser=pdfplumber warnings=['removed_repeated_header_footer_lines:43']
+16:49:16 | DEBUG   | extracting doc_id=nist_genai_profile file=nist_genai_profile.pdf ext=pdf bytes=1174643
+16:49:24 | INFO    | [ok] nist_genai_profile                       fmt=pdf   tokens=33871   chars=158280   pages=64   parser=pdfplumber
+16:49:24 | DEBUG   | extracting doc_id=ai_act_proposal_2021 file=ai_act_proposal_2021.html ext=html bytes=645749
+16:49:24 | INFO    | [ok] ai_act_proposal_2021                     fmt=html  tokens=67110   chars=338636   pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:2', 'removed_boilerplate_nodes:1']
+16:49:24 | DEBUG   | extracting doc_id=ai_act_trilogue_dec2023 file=ai_act_trilogue_dec2023.pdf ext=pdf bytes=1266130
+16:49:55 | INFO    | [ok] ai_act_trilogue_dec2023                  fmt=pdf   tokens=120814  chars=598941   pages=272  parser=pdfplumber warnings=['removed_repeated_header_footer_lines:272']
+16:49:55 | DEBUG   | extracting doc_id=summary_risk_classification file=summary_risk_classification.md ext=md bytes=7669
+16:49:55 | INFO    | [ok] summary_risk_classification              fmt=md    tokens=1827    chars=7427     pages=0    parser=raw_markdown:utf-8
+16:49:55 | DEBUG   | extracting doc_id=summary_gdpr_aiact_overlap file=summary_gdpr_aiact_overlap.md ext=md bytes=6776
+16:49:55 | INFO    | [ok] summary_gdpr_aiact_overlap               fmt=md    tokens=1574    chars=6685     pages=0    parser=raw_markdown:utf-8
+16:49:55 | DEBUG   | extracting doc_id=summary_content_moderation_checklist file=summary_content_moderation_checklist.md ext=md bytes=9312
+16:49:55 | INFO    | [ok] summary_content_moderation_checklist     fmt=md    tokens=2213    chars=9218     pages=0    parser=raw_markdown:utf-8
+16:49:55 | DEBUG   | extracting doc_id=summary_glossary file=summary_glossary.md ext=md bytes=11524
+16:49:55 | INFO    | [ok] summary_glossary                         fmt=md    tokens=2689    chars=11419    pages=0    parser=raw_markdown:utf-8
+16:49:55 | DEBUG   | extracting doc_id=poisoned_blog_ai_act file=poisoned_blog_ai_act.html ext=html bytes=1162635
+16:49:55 | INFO    | [ok] poisoned_blog_ai_act                     fmt=html  tokens=1966    chars=9586     pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:116', 'html_comments_preserved:33']
+16:49:55 | DEBUG   | extracting doc_id=aia_eu_article50_guide file=aia_eu_article50_guide.html ext=html bytes=319674
+16:49:56 | INFO    | [ok] aia_eu_article50_guide                   fmt=html  tokens=20      chars=100      pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:81', 'removed_boilerplate_nodes:1', 'very_short_text']
+16:49:56 | DEBUG   | extracting doc_id=aia_eu_high_level_summary file=aia_eu_high_level_summary.html ext=html bytes=323403
+16:49:56 | INFO    | [ok] aia_eu_high_level_summary                fmt=html  tokens=12      chars=65       pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:80', 'removed_boilerplate_nodes:1', 'very_short_text']
+16:49:56 | DEBUG   | extracting doc_id=aia_eu_small_business_guide file=aia_eu_small_business_guide.html ext=html bytes=315583
+16:49:56 | INFO    | [ok] aia_eu_small_business_guide              fmt=html  tokens=13      chars=70       pages=0    parser=beautifulsoup:utf-8 warnings=['removed_html_tags:80', 'removed_boilerplate_nodes:1', 'very_short_text']
+16:49:56 | INFO    | wrote documents: data\processed\documents.jsonl
+16:49:56 | INFO    | wrote extraction log: data\processed\extraction_log.jsonl
+16:49:56 | INFO    | wrote stats: data\processed\ingestion_stats.json
+16:49:56 | INFO    | SUMMARY ok=31 failed=0 missing=0 total_tokens=873,394 by_format={'html': 13, 'pdf': 14, 'md': 4}

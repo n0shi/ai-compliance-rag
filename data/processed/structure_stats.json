@@ -1,0 +1,404 @@
+{
+  "input_documents": 31,
+  "total_sections": 1609,
+  "by_section_type": {
+    "recital": 674,
+    "article": 497,
+    "annex": 30,
+    "document": 6,
+    "heading": 9,
+    "numbered_heading": 353,
+    "h1": 4,
+    "h3": 8,
+    "h2": 28
+  },
+  "documents": [
+    {
+      "doc_id": "ai_act_2024_1689",
+      "title": "Regulation (EU) 2024/1689 — Artificial Intelligence Act (HTML)",
+      "format": "html",
+      "sections": 306,
+      "by_type": {
+        "recital": 180,
+        "article": 113,
+        "annex": 13
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "gdpr_2016_679",
+      "title": "Regulation (EU) 2016/679 — GDPR",
+      "format": "html",
+      "sections": 272,
+      "by_type": {
+        "recital": 173,
+        "article": 99
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "dsa_2022_2065",
+      "title": "Regulation (EU) 2022/2065 — Digital Services Act",
+      "format": "html",
+      "sections": 249,
+      "by_type": {
+        "recital": 156,
+        "article": 93
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "pld_2024_2853",
+      "title": "Directive (EU) 2024/2853 — Product Liability Directive (revised)",
+      "format": "html",
+      "sections": 88,
+      "by_type": {
+        "recital": 64,
+        "article": 24
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "edpb_opinion_28_2024",
+      "title": "EDPB Opinion 28/2024 — Data Protection in AI Models",
+      "format": "pdf",
+      "sections": 1,
+      "by_type": {
+        "document": 1
+      },
+      "missing_articles": [],
+      "warnings": [
+        "fallback:no_structure_detected"
+      ]
+    },
+    {
+      "doc_id": "commission_guidelines_prohibited_practices_2025",
+      "title": "Commission Guidelines on Prohibited AI Practices (4 Feb 2025) — full text",
+      "format": "pdf",
+      "sections": 5,
+      "by_type": {
+        "article": 5
+      },
+      "missing_articles": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        10,
+        12,
+        13
+      ],
+      "warnings": []
+    },
+    {
+      "doc_id": "commission_guidelines_ai_definition_2025",
+      "title": "Commission Guidelines on AI System Definition (29 Jul 2025) — full text",
+      "format": "pdf",
+      "sections": 13,
+      "by_type": {
+        "heading": 1,
+        "numbered_heading": 12
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "edpb_automated_decision_making_guidelines",
+      "title": "EDPB/WP29 Guidelines on Automated Decision-Making (WP251rev.01)",
+      "format": "pdf",
+      "sections": 66,
+      "by_type": {
+        "heading": 2,
+        "numbered_heading": 64
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "enisa_ai_cybersecurity_framework",
+      "title": "ENISA — Multilayer Framework for Good Cybersecurity Practices for AI",
+      "format": "pdf",
+      "sections": 1,
+      "by_type": {
+        "document": 1
+      },
+      "missing_articles": [],
+      "warnings": [
+        "fallback:no_structure_detected"
+      ]
+    },
+    {
+      "doc_id": "enisa_securing_ml",
+      "title": "ENISA — Securing Machine Learning Algorithms",
+      "format": "pdf",
+      "sections": 1,
+      "by_type": {
+        "document": 1
+      },
+      "missing_articles": [],
+      "warnings": [
+        "fallback:no_structure_detected"
+      ]
+    },
+    {
+      "doc_id": "dlapiper_ai_act_overview",
+      "title": "DLA Piper — EU AI Act's ban on Prohibited Practices takes effect (Feb 2025)",
+      "format": "html",
+      "sections": 1,
+      "by_type": {
+        "numbered_heading": 1
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "birdbird_ai_act_tracker",
+      "title": "Bird & Bird — Updates on the EU AI Act (overview landing)",
+      "format": "html",
+      "sections": 1,
+      "by_type": {
+        "document": 1
+      },
+      "missing_articles": [],
+      "warnings": [
+        "fallback:no_structure_detected"
+      ]
+    },
+    {
+      "doc_id": "hoganlovells_ai_act",
+      "title": "Hogan Lovells — The EU AI Act: an impact analysis (part 1)",
+      "format": "html",
+      "sections": 9,
+      "by_type": {
+        "numbered_heading": 9
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "cms_ai_act_guide",
+      "title": "CMS — EU AI Act: Questions and Answers (July 2025)",
+      "format": "pdf",
+      "sections": 70,
+      "by_type": {
+        "heading": 1,
+        "numbered_heading": 69
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "fpf_conformity_assessment_2025",
+      "title": "FPF/OneTrust — Conformity Assessments under the EU AI Act (Apr 2025)",
+      "format": "pdf",
+      "sections": 36,
+      "by_type": {
+        "heading": 2,
+        "numbered_heading": 34
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "fpf_ai_act_primer",
+      "title": "FPF — The EU's AI Act: A Primer (July 2025)",
+      "format": "pdf",
+      "sections": 1,
+      "by_type": {
+        "document": 1
+      },
+      "missing_articles": [],
+      "warnings": [
+        "fallback:no_structure_detected"
+      ]
+    },
+    {
+      "doc_id": "coe_ai_convention_2024",
+      "title": "Council of Europe Framework Convention on AI (May 2024)",
+      "format": "pdf",
+      "sections": 36,
+      "by_type": {
+        "numbered_heading": 36
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "us_eo_14110_biden",
+      "title": "US Executive Order 14110 on AI (Biden, Oct 2023) — REVOKED Jan 2025",
+      "format": "html",
+      "sections": 34,
+      "by_type": {
+        "numbered_heading": 34
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "uk_ai_white_paper_2023",
+      "title": "UK AI Regulation White Paper (pro-innovation approach)",
+      "format": "pdf",
+      "sections": 1,
+      "by_type": {
+        "document": 1
+      },
+      "missing_articles": [],
+      "warnings": [
+        "fallback:no_structure_detected"
+      ]
+    },
+    {
+      "doc_id": "nist_ai_rmf",
+      "title": "NIST AI Risk Management Framework (AI RMF 1.0)",
+      "format": "pdf",
+      "sections": 29,
+      "by_type": {
+        "heading": 1,
+        "numbered_heading": 28
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "nist_genai_profile",
+      "title": "NIST Generative AI Profile (NIST AI 600-1)",
+      "format": "pdf",
+      "sections": 65,
+      "by_type": {
+        "heading": 1,
+        "numbered_heading": 64
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "ai_act_proposal_2021",
+      "title": "AI Act — Commission Proposal (April 2021, COM(2021) 206 final)",
+      "format": "html",
+      "sections": 183,
+      "by_type": {
+        "recital": 89,
+        "article": 85,
+        "annex": 9
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "ai_act_trilogue_dec2023",
+      "title": "AI Act — Trilogue compromise text (Jan 2024, ST-5662-2024-INIT)",
+      "format": "pdf",
+      "sections": 98,
+      "by_type": {
+        "recital": 12,
+        "article": 78,
+        "annex": 8
+      },
+      "missing_articles": [
+        4,
+        19,
+        22,
+        24,
+        45,
+        50,
+        57
+      ],
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_risk_classification",
+      "title": "Summary: AI Act Risk Classification Cheatsheet (own)",
+      "format": "md",
+      "sections": 10,
+      "by_type": {
+        "h1": 1,
+        "h3": 4,
+        "h2": 5
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_gdpr_aiact_overlap",
+      "title": "Summary: AI Act × GDPR Overlap Matrix (own)",
+      "format": "md",
+      "sections": 7,
+      "by_type": {
+        "h1": 1,
+        "h2": 6
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_content_moderation_checklist",
+      "title": "Summary: Content Moderation AI Compliance Checklist (own)",
+      "format": "md",
+      "sections": 13,
+      "by_type": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 4
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_glossary",
+      "title": "Summary: Glossary of AI Act Terms (own)",
+      "format": "md",
+      "sections": 10,
+      "by_type": {
+        "h1": 1,
+        "h2": 9
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "poisoned_blog_ai_act",
+      "title": "[POISONED] Industry blog with indirect prompt injection",
+      "format": "html",
+      "sections": 3,
+      "by_type": {
+        "heading": 1,
+        "numbered_heading": 2
+      },
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "aia_eu_article50_guide",
+      "title": "EU Artificial Intelligence Act — Practical Guide to Article 50 Transparency Rules",
+      "format": "html",
+      "sections": 0,
+      "by_type": {},
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "aia_eu_high_level_summary",
+      "title": "EU Artificial Intelligence Act — High-level summary of the AI Act",
+      "format": "html",
+      "sections": 0,
+      "by_type": {},
+      "missing_articles": [],
+      "warnings": []
+    },
+    {
+      "doc_id": "aia_eu_small_business_guide",
+      "title": "EU Artificial Intelligence Act — Small Businesses’ Guide to the AI Act",
+      "format": "html",
+      "sections": 0,
+      "by_type": {},
+      "missing_articles": [],
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-05-27T13:06:28.850485+00:00",
+  "source_chunks": "data\\processed\\chunks_800_120.jsonl",
+  "out_dir": "data\\index",
+  "chunk_store_path": "data\\index\\chunk_store.jsonl",
+  "total_chunks": 2317,
+  "by_format": {
+    "html": 1279,
+    "md": 40,
+    "pdf": 998
+  },
+  "by_role": {
+    "distractor": 259,
+    "domain": 36,
+    "duplicate": 454,
+    "industry": 150,
+    "interpretation": 261,
+    "poisoned": 4,
+    "primary": 992,
+    "summary": 40,
+    "technical": 121
+  },
+  "dense": {
+    "faiss_path": "data\\index\\faiss.index",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "embedding_dim": 768,
+    "vectors": 2317,
+    "metric": "cosine_via_inner_product_normalized"
+  },
+  "bm25": {
+    "bm25_path": "data\\index\\bm25.pkl",
+    "tokenizer": "regex_legal_v1",
+    "documents": 2317,
+    "avg_terms_per_chunk": 315.91
+  },
+  "notes": {
+    "faiss_row_alignment": "FAISS row i and BM25 doc i correspond to line i in chunk_store.jsonl",
+    "poisoned_indexing": "Poisoned chunks are indexed unless --skip-poisoned-from-index is used, to support adversarial retrieval evaluation."
+  }
+}

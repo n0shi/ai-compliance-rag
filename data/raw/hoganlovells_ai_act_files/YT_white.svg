@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 20 14">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-3" d="M20,10.6V3.4c0-1.9-1.4-3.4-3.3-3.4H3.4C1.6,0,0,1.4,0,3.3h0v7.3c0,1.9,1.4,3.4,3.3,3.4h13.3c1.9,0,3.4-1.4,3.5-3.3h0M13.9,7l-6.6,3.8V3.2l6.6,3.8h0Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="-112" y="-115" width="664" height="584"/>
+    </clipPath>
+  </defs>
+  <g id="Group_411" data-name="Group 411">
+    <g>
+      <path class="cls-3" d="M20,10.6V3.4c0-1.9-1.4-3.4-3.3-3.4H3.4C1.6,0,0,1.4,0,3.3h0v7.3c0,1.9,1.4,3.4,3.3,3.4h13.3c1.9,0,3.4-1.4,3.5-3.3h0M13.9,7l-6.6,3.8V3.2l6.6,3.8h0Z"/>
+      <g>
+        <path class="cls-2" d="M20,10.6V3.4c0-1.9-1.4-3.4-3.3-3.4H3.4C1.6,0,0,1.4,0,3.3h0v7.3c0,1.9,1.4,3.4,3.3,3.4h13.3c1.9,0,3.4-1.4,3.5-3.3h0M13.9,7l-6.6,3.8V3.2l6.6,3.8h0Z"/>
+        <g class="cls-1">
+          <g id="Group_382" data-name="Group 382">
+            <g>
+              <rect class="cls-3" x="-112" y="-115" width="664" height="584"/>
+              <g>
+                <rect class="cls-2" x="-112" y="-115" width="664" height="584"/>
+                <g class="cls-4">
+                  <g id="Group_381" data-name="Group 381">
+                    <path id="Path_99" data-name="Path 99" class="cls-3" d="M-5-5h30v24H-5V-5Z"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

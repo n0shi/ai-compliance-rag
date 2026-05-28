@@ -1,0 +1,494 @@
+{
+  "generated_at": "2026-05-26T14:49:56.126079+00:00",
+  "ok": 31,
+  "failed": 0,
+  "missing": 0,
+  "total_documents_in_manifest": 31,
+  "total_tokens": 873394,
+  "total_chars": 4345637,
+  "total_bytes": 27228528,
+  "by_format": {
+    "html": 13,
+    "pdf": 14,
+    "md": 4
+  },
+  "by_tier": {
+    "tier1": 4,
+    "tier2": 4,
+    "tier3": 2,
+    "tier4": 9,
+    "tier5": 1,
+    "tier6": 4,
+    "tier7": 2,
+    "tier8": 4,
+    "tier9": 1
+  },
+  "by_role": {
+    "primary": 4,
+    "interpretation": 4,
+    "technical": 2,
+    "industry": 9,
+    "domain": 1,
+    "distractor": 4,
+    "duplicate": 2,
+    "summary": 4,
+    "poisoned": 1
+  },
+  "documents": [
+    {
+      "doc_id": "ai_act_2024_1689",
+      "title": "Regulation (EU) 2024/1689 — Artificial Intelligence Act (HTML)",
+      "format": "html",
+      "tier": "tier1",
+      "role": "primary",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 582489,
+      "words": 90483,
+      "tokens": 110774,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:14"
+      ]
+    },
+    {
+      "doc_id": "gdpr_2016_679",
+      "title": "Regulation (EU) 2016/679 — GDPR",
+      "format": "html",
+      "tier": "tier1",
+      "role": "primary",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 350673,
+      "words": 55014,
+      "tokens": 64389,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:14"
+      ]
+    },
+    {
+      "doc_id": "dsa_2022_2065",
+      "title": "Regulation (EU) 2022/2065 — Digital Services Act",
+      "format": "html",
+      "tier": "tier1",
+      "role": "primary",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 415115,
+      "words": 64149,
+      "tokens": 75397,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:14"
+      ]
+    },
+    {
+      "doc_id": "pld_2024_2853",
+      "title": "Directive (EU) 2024/2853 — Product Liability Directive (revised)",
+      "format": "html",
+      "tier": "tier1",
+      "role": "primary",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 87507,
+      "words": 13927,
+      "tokens": 17340,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:14"
+      ]
+    },
+    {
+      "doc_id": "edpb_opinion_28_2024",
+      "title": "EDPB Opinion 28/2024 — Data Protection in AI Models",
+      "format": "pdf",
+      "tier": "tier2",
+      "role": "interpretation",
+      "parser": "pdfplumber",
+      "chars": 123624,
+      "words": 19255,
+      "tokens": 27328,
+      "pages": 35,
+      "warnings": []
+    },
+    {
+      "doc_id": "commission_guidelines_prohibited_practices_2025",
+      "title": "Commission Guidelines on Prohibited AI Practices (4 Feb 2025) — full text",
+      "format": "pdf",
+      "tier": "tier2",
+      "role": "interpretation",
+      "parser": "pdfplumber",
+      "chars": 420670,
+      "words": 64078,
+      "tokens": 88276,
+      "pages": 134,
+      "warnings": []
+    },
+    {
+      "doc_id": "commission_guidelines_ai_definition_2025",
+      "title": "Commission Guidelines on AI System Definition (29 Jul 2025) — full text",
+      "format": "pdf",
+      "tier": "tier2",
+      "role": "interpretation",
+      "parser": "pdfplumber",
+      "chars": 36007,
+      "words": 5506,
+      "tokens": 7255,
+      "pages": 13,
+      "warnings": []
+    },
+    {
+      "doc_id": "edpb_automated_decision_making_guidelines",
+      "title": "EDPB/WP29 Guidelines on Automated Decision-Making (WP251rev.01)",
+      "format": "pdf",
+      "tier": "tier2",
+      "role": "interpretation",
+      "parser": "pdfplumber",
+      "chars": 104106,
+      "words": 14896,
+      "tokens": 21132,
+      "pages": 37,
+      "warnings": []
+    },
+    {
+      "doc_id": "enisa_ai_cybersecurity_framework",
+      "title": "ENISA — Multilayer Framework for Good Cybersecurity Practices for AI",
+      "format": "pdf",
+      "tier": "tier3",
+      "role": "technical",
+      "parser": "pdfplumber",
+      "chars": 127188,
+      "words": 18025,
+      "tokens": 26604,
+      "pages": 46,
+      "warnings": [
+        "removed_repeated_header_footer_lines:81"
+      ]
+    },
+    {
+      "doc_id": "enisa_securing_ml",
+      "title": "ENISA — Securing Machine Learning Algorithms",
+      "format": "pdf",
+      "tier": "tier3",
+      "role": "technical",
+      "parser": "pdfplumber",
+      "chars": 159286,
+      "words": 26876,
+      "tokens": 43466,
+      "pages": 70,
+      "warnings": [
+        "removed_repeated_header_footer_lines:136"
+      ]
+    },
+    {
+      "doc_id": "dlapiper_ai_act_overview",
+      "title": "DLA Piper — EU AI Act's ban on Prohibited Practices takes effect (Feb 2025)",
+      "format": "html",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 4538,
+      "words": 714,
+      "tokens": 940,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:116",
+        "removed_boilerplate_nodes:2"
+      ]
+    },
+    {
+      "doc_id": "birdbird_ai_act_tracker",
+      "title": "Bird & Bird — Updates on the EU AI Act (overview landing)",
+      "format": "html",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 2922,
+      "words": 488,
+      "tokens": 643,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:49",
+        "removed_boilerplate_nodes:7"
+      ]
+    },
+    {
+      "doc_id": "hoganlovells_ai_act",
+      "title": "Hogan Lovells — The EU AI Act: an impact analysis (part 1)",
+      "format": "html",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 17266,
+      "words": 2641,
+      "tokens": 3398,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:84",
+        "removed_boilerplate_nodes:4"
+      ]
+    },
+    {
+      "doc_id": "cms_ai_act_guide",
+      "title": "CMS — EU AI Act: Questions and Answers (July 2025)",
+      "format": "pdf",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "pdfplumber",
+      "chars": 184612,
+      "words": 27922,
+      "tokens": 35663,
+      "pages": 55,
+      "warnings": []
+    },
+    {
+      "doc_id": "fpf_conformity_assessment_2025",
+      "title": "FPF/OneTrust — Conformity Assessments under the EU AI Act (Apr 2025)",
+      "format": "pdf",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "pdfplumber",
+      "chars": 104915,
+      "words": 16451,
+      "tokens": 22415,
+      "pages": 41,
+      "warnings": [
+        "removed_repeated_header_footer_lines:37"
+      ]
+    },
+    {
+      "doc_id": "fpf_ai_act_primer",
+      "title": "FPF — The EU's AI Act: A Primer (July 2025)",
+      "format": "pdf",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "pdfplumber",
+      "chars": 6520,
+      "words": 987,
+      "tokens": 1346,
+      "pages": 4,
+      "warnings": []
+    },
+    {
+      "doc_id": "coe_ai_convention_2024",
+      "title": "Council of Europe Framework Convention on AI (May 2024)",
+      "format": "pdf",
+      "tier": "tier5",
+      "role": "domain",
+      "parser": "pdfplumber",
+      "chars": 31704,
+      "words": 4879,
+      "tokens": 5923,
+      "pages": 12,
+      "warnings": [
+        "removed_repeated_header_footer_lines:22"
+      ]
+    },
+    {
+      "doc_id": "us_eo_14110_biden",
+      "title": "US Executive Order 14110 on AI (Biden, Oct 2023) — REVOKED Jan 2025",
+      "format": "html",
+      "tier": "tier6",
+      "role": "distractor",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 137526,
+      "words": 20285,
+      "tokens": 25654,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:111",
+        "removed_boilerplate_nodes:18"
+      ]
+    },
+    {
+      "doc_id": "uk_ai_white_paper_2023",
+      "title": "UK AI Regulation White Paper (pro-innovation approach)",
+      "format": "pdf",
+      "tier": "tier6",
+      "role": "distractor",
+      "parser": "pdfplumber",
+      "chars": 208165,
+      "words": 31200,
+      "tokens": 41031,
+      "pages": 93,
+      "warnings": [
+        "removed_repeated_header_footer_lines:85"
+      ]
+    },
+    {
+      "doc_id": "nist_ai_rmf",
+      "title": "NIST AI Risk Management Framework (AI RMF 1.0)",
+      "format": "pdf",
+      "tier": "tier6",
+      "role": "distractor",
+      "parser": "pdfplumber",
+      "chars": 100377,
+      "words": 10570,
+      "tokens": 22311,
+      "pages": 48,
+      "warnings": [
+        "removed_repeated_header_footer_lines:43"
+      ]
+    },
+    {
+      "doc_id": "nist_genai_profile",
+      "title": "NIST Generative AI Profile (NIST AI 600-1)",
+      "format": "pdf",
+      "tier": "tier6",
+      "role": "distractor",
+      "parser": "pdfplumber",
+      "chars": 158280,
+      "words": 21008,
+      "tokens": 33871,
+      "pages": 64,
+      "warnings": []
+    },
+    {
+      "doc_id": "ai_act_proposal_2021",
+      "title": "AI Act — Commission Proposal (April 2021, COM(2021) 206 final)",
+      "format": "html",
+      "tier": "tier7",
+      "role": "duplicate",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 338636,
+      "words": 52286,
+      "tokens": 67110,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:2",
+        "removed_boilerplate_nodes:1"
+      ]
+    },
+    {
+      "doc_id": "ai_act_trilogue_dec2023",
+      "title": "AI Act — Trilogue compromise text (Jan 2024, ST-5662-2024-INIT)",
+      "format": "pdf",
+      "tier": "tier7",
+      "role": "duplicate",
+      "parser": "pdfplumber",
+      "chars": 598941,
+      "words": 92604,
+      "tokens": 120814,
+      "pages": 272,
+      "warnings": [
+        "removed_repeated_header_footer_lines:272"
+      ]
+    },
+    {
+      "doc_id": "summary_risk_classification",
+      "title": "Summary: AI Act Risk Classification Cheatsheet (own)",
+      "format": "md",
+      "tier": "tier8",
+      "role": "summary",
+      "parser": "raw_markdown:utf-8",
+      "chars": 7427,
+      "words": 1150,
+      "tokens": 1827,
+      "pages": 0,
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_gdpr_aiact_overlap",
+      "title": "Summary: AI Act × GDPR Overlap Matrix (own)",
+      "format": "md",
+      "tier": "tier8",
+      "role": "summary",
+      "parser": "raw_markdown:utf-8",
+      "chars": 6685,
+      "words": 1082,
+      "tokens": 1574,
+      "pages": 0,
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_content_moderation_checklist",
+      "title": "Summary: Content Moderation AI Compliance Checklist (own)",
+      "format": "md",
+      "tier": "tier8",
+      "role": "summary",
+      "parser": "raw_markdown:utf-8",
+      "chars": 9218,
+      "words": 1409,
+      "tokens": 2213,
+      "pages": 0,
+      "warnings": []
+    },
+    {
+      "doc_id": "summary_glossary",
+      "title": "Summary: Glossary of AI Act Terms (own)",
+      "format": "md",
+      "tier": "tier8",
+      "role": "summary",
+      "parser": "raw_markdown:utf-8",
+      "chars": 11419,
+      "words": 1707,
+      "tokens": 2689,
+      "pages": 0,
+      "warnings": []
+    },
+    {
+      "doc_id": "poisoned_blog_ai_act",
+      "title": "[POISONED] Industry blog with indirect prompt injection",
+      "format": "html",
+      "tier": "tier9",
+      "role": "poisoned",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 9586,
+      "words": 1461,
+      "tokens": 1966,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:116",
+        "html_comments_preserved:33"
+      ]
+    },
+    {
+      "doc_id": "aia_eu_article50_guide",
+      "title": "EU Artificial Intelligence Act — Practical Guide to Article 50 Transparency Rules",
+      "format": "html",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 100,
+      "words": 17,
+      "tokens": 20,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:81",
+        "removed_boilerplate_nodes:1",
+        "very_short_text"
+      ]
+    },
+    {
+      "doc_id": "aia_eu_high_level_summary",
+      "title": "EU Artificial Intelligence Act — High-level summary of the AI Act",
+      "format": "html",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 65,
+      "words": 11,
+      "tokens": 12,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:80",
+        "removed_boilerplate_nodes:1",
+        "very_short_text"
+      ]
+    },
+    {
+      "doc_id": "aia_eu_small_business_guide",
+      "title": "EU Artificial Intelligence Act — Small Businesses’ Guide to the AI Act",
+      "format": "html",
+      "tier": "tier4",
+      "role": "industry",
+      "parser": "beautifulsoup:utf-8",
+      "chars": 70,
+      "words": 12,
+      "tokens": 13,
+      "pages": 0,
+      "warnings": [
+        "removed_html_tags:80",
+        "removed_boilerplate_nodes:1",
+        "very_short_text"
+      ]
+    }
+  ]
+}
