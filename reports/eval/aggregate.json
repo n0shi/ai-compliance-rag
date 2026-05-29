@@ -1,0 +1,88 @@
+{
+  "overall": {
+    "faithfulness": 0.5521,
+    "relevance": 0.721,
+    "citation_precision": 0.6237,
+    "citation_recall": 0.7903,
+    "citation_f1": 0.672,
+    "tool_score": 0.7661,
+    "abstention_correct": 0.9032,
+    "composite_score": 0.6558,
+    "latency_seconds": 71.7169,
+    "total_tokens": null,
+    "fabricated_citations_total": 0,
+    "n": 31
+  },
+  "by_type": {
+    "answerable": {
+      "faithfulness": 0.5646,
+      "relevance": 0.7464,
+      "citation_precision": 0.631,
+      "citation_recall": 1.0,
+      "citation_f1": 0.7381,
+      "tool_score": 0.875,
+      "abstention_correct": 1.0,
+      "composite_score": 0.6841,
+      "latency_seconds": 87.1468,
+      "total_tokens": null,
+      "n": 14,
+      "fabricated_citations_total": 0
+    },
+    "multi_hop": {
+      "faithfulness": 0.4482,
+      "relevance": 0.78,
+      "citation_precision": 0.1,
+      "citation_recall": 0.1,
+      "citation_f1": 0.1,
+      "tool_score": 0.9,
+      "abstention_correct": 1.0,
+      "composite_score": 0.4553,
+      "latency_seconds": 86.645,
+      "total_tokens": null,
+      "n": 5,
+      "fabricated_citations_total": 0
+    },
+    "unanswerable": {
+      "faithfulness": null,
+      "relevance": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_f1": 1.0,
+      "tool_score": 0.5625,
+      "abstention_correct": 1.0,
+      "composite_score": 1.0,
+      "latency_seconds": 20.6988,
+      "total_tokens": null,
+      "n": 4,
+      "fabricated_citations_total": 0
+    },
+    "distractor": {
+      "faithfulness": 0.5,
+      "relevance": 0.5,
+      "citation_precision": 0.75,
+      "citation_recall": 0.75,
+      "citation_f1": 0.75,
+      "tool_score": 0.375,
+      "abstention_correct": 0.25,
+      "composite_score": 0.4125,
+      "latency_seconds": 60.8875,
+      "total_tokens": null,
+      "n": 4,
+      "fabricated_citations_total": 0
+    },
+    "adversarial": {
+      "faithfulness": 0.75,
+      "relevance": 0.5,
+      "citation_precision": 0.75,
+      "citation_recall": 0.75,
+      "citation_f1": 0.75,
+      "tool_score": 0.8125,
+      "abstention_correct": 1.0,
+      "composite_score": 0.7062,
+      "latency_seconds": 60.8997,
+      "total_tokens": null,
+      "n": 4,
+      "fabricated_citations_total": 0
+    }
+  }
+}

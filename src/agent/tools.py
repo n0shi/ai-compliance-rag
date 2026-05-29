@@ -8,10 +8,37 @@ from .schemas import DeadlineCalculation, PenaltyCalculation, ToolCall
 from ..retrieval.store.index_store import IndexStore
 from ..retrieval.pipelines.pipelines import RetrievalPipeline
 
+# Heavy objects (FAISS index, embedding encoder, cross-encoder reranker) are
+# expensive to load and must not be rebuilt per question. We cache the
+# IndexStore per index_dir (the index is the same regardless of retrieval mode)
+# and the pipeline per (index_dir, mode). This both avoids reloading model
+# weights on every call and prevents the Windows page-file exhaustion that
+# happens when many torch models are loaded in one process.
+_STORE_CACHE: dict[str, IndexStore] = {}
+_PIPELINE_CACHE: dict[tuple[str, str], RetrievalPipeline] = {}
+
+
+def _get_store(index_dir: str) -> IndexStore:
+    if index_dir not in _STORE_CACHE:
+        _STORE_CACHE[index_dir] = IndexStore(index_dir)
+    return _STORE_CACHE[index_dir]
+
+
+def _get_pipeline(index_dir: str, mode: str) -> RetrievalPipeline:
+    key = (index_dir, mode)
+    if key not in _PIPELINE_CACHE:
+        _PIPELINE_CACHE[key] = RetrievalPipeline(_get_store(index_dir), mode=mode)
+    return _PIPELINE_CACHE[key]
+
+
+def clear_retrieval_cache() -> None:
+    """Drop cached store/pipelines (e.g. between ablation runs that swap models)."""
+    _STORE_CACHE.clear()
+    _PIPELINE_CACHE.clear()
+
 def search_kb(query: str, index_dir: str = "data/index", mode: str = "hybrid_rerank", top_k: int = 5, dense_k: int = 50, bm25_k: int = 50, rrf_k: int = 60, rerank_k: int = 30, exclude_poisoned: bool = False):
     started = time.perf_counter()
-    store = IndexStore(index_dir)
-    pipe = RetrievalPipeline(store, mode=mode)
+    pipe = _get_pipeline(index_dir, mode)
     evidence = pipe.search(query, top_k=top_k, dense_k=dense_k, bm25_k=bm25_k, rrf_k=rrf_k, rerank_k=rerank_k, exclude_poisoned=exclude_poisoned)
     call = ToolCall(tool_name="search_kb", arguments={"query": query, "index_dir": index_dir, "mode": mode, "top_k": top_k}, success=True, observation_summary=f"Retrieved {len(evidence)} chunks in {round(time.perf_counter()-started,3)}s")
     return evidence, call

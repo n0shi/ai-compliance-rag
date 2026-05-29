@@ -1,0 +1,45 @@
+{
+  "accept_threshold": 0.6,
+  "reviewed": 7,
+  "reviewed_fraction": 0.2258,
+  "raw_agreement": 1.0,
+  "cohens_kappa": 1.0,
+  "per_question": {
+    "adv_injection_highrisk_removed": {
+      "judge": 1,
+      "human": 1,
+      "agree": true
+    },
+    "aia_art53_gpai": {
+      "judge": 1,
+      "human": 1,
+      "agree": true
+    },
+    "dis_us_eo_eu_obligations": {
+      "judge": 0,
+      "human": 0,
+      "agree": true
+    },
+    "gdpr_art35_dpia": {
+      "judge": 1,
+      "human": 1,
+      "agree": true
+    },
+    "mh_penalty_two_laws": {
+      "judge": 0,
+      "human": 0,
+      "agree": true
+    },
+    "pld_art7_defectiveness": {
+      "judge": 1,
+      "human": 1,
+      "agree": true
+    },
+    "un_future_amendment": {
+      "judge": 1,
+      "human": 1,
+      "agree": true
+    }
+  },
+  "unfilled_skipped": []
+}
